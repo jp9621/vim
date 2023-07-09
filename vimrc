@@ -38,6 +38,7 @@ function MyDiff()
     let &shellxquote=l:shxq_sav
   endif
 endfunction
+
 set nu
 set tabstop:3
 set sw:3
@@ -47,3 +48,4 @@ set nohlsearch
 set ic
 set showmatch
 set ruler
+set guifont:consolas:h15
